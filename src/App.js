@@ -1,12 +1,14 @@
 import './App.css';
 // import Counter from "./components/Counter/Counter";
-import Todo from "./components/Todo/Todo";
+import TodoList from "./components/TodoRedux/TodoList";
+import TodoItem from "./components/TodoRedux/TodoItem";
 
 function App() {
     return (
         <div className="App">
             {/*<Counter/>*/}
-            <Todo/>
+            <TodoItem/>
+            <TodoList/>
         </div>
     );
 }
