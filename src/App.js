@@ -1,7 +1,7 @@
 import './App.css';
 // import Counter from "./components/Counter/Counter";
-import TodoList from "./components/TodoRedux/TodoList";
-import TodoItem from "./components/TodoRedux/TodoItem";
+import TodoList from "./components/redux/TodoRedux/TodoList";
+import TodoItem from "./components/redux/TodoRedux/TodoItem";
 
 function App() {
     return (

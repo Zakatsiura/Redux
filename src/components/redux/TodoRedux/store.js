@@ -1,5 +1,6 @@
 import { createStore } from "redux";
 
+
 const initialState = [];
 const todos = (state = initialState, action) => {
     switch (action.type) {
